@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+    <title>Pokédex</title>
+</head>
+<body>
+
+    <div id="app">
+        <h1>Pokédex LaunchX</h1>
+        <!-- <input type="text" placeholder="pikachu" id="pokeName" name="pokeName"><br> -->
+
+        <input v-model="pokemon.name" placeholder="busca tu pokémon favorito">
+
+        <img v-bind:src="pokemon.images.frontDefault" alt="Pokemon" id="frontDefault" class="img-front"><br>
+        {{pokemon.name}}<br>
+        {{pokemon.weight}}<br>
+        {{pokemon.type}}<br>
+        {{pokemon.moves}}<br>
+        {{pokemon.images.frontDefault}}<br>
+        {{pokemon.images.frontShiny}}<br>
+
+        <button v-on:click="fetchPokemon()">Cambiar pokémon</button>
+    </div>
+    
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
