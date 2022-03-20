@@ -4,11 +4,11 @@ const app = Vue.createApp({
             pokemon: {
                 name: '',
                 weight: 0,
-                type: '',
+                type: '?',
                 moves: 0,
                 images: {
                     frontDefault: "./assets/img/pokeball.png",
-                    frontShiny: ''
+                    frontShiny: "./assets/img/whos-that-pokemon.png"
                 }
             }
         }

@@ -1,3 +1,76 @@
+body {
+    font-family: 'Karla regular', 'Source Sans Pro';
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Source Sans Pro';
+}
+
+.card-tittle-mg {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card-tittle-container {
+    font-size: 16px;
+}
+
+.presentation {
+    font-size: 36px;
+}
+
+
 .img-front {
     width: 150px;
+}
+
+.pokemon-header {
+    background-color: #F5DB13;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pokemon-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemon-a {
+    width: 20vw;
+}
+
+.pokemon-form-search {
+    width: 50vw;
+}
+
+.pokemon-logo {
+    width: 100%;
 }
