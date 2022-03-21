@@ -1,0 +1,6 @@
+<template id="pokemon-search">
+    <div class="pokemon-form-search pokemon-flex">
+        <input type="search" class="form-control" v-model="pokemon.name" placeholder="busca tu pokémon favorito">
+        <button v-on:click="fetchPokemon()">Cambiar pokémon</button>
+    </div>
+</template>
